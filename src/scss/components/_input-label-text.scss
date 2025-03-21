@@ -1,0 +1,45 @@
+.input-label-text {
+    height: 40px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+
+    border-radius: 50px;
+    background: var(--black-010);
+    margin-bottom: 1.25rem;
+    padding: 0.3rem;
+
+    input[type="text"] {
+        width: 85%;
+
+        border: none;
+        background: none;
+        font-size: 0.8rem;
+        color: var(--white);
+        outline: 0;
+        margin-left: 0.7rem;
+    }
+
+    input[type="checkbox"] {
+        appearance: none;
+        background-color: var(--white);
+
+        width: 1.25rem;
+        height: 1.25rem;
+
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+
+        &:checked {
+            background: var(--primary);
+        }
+    }
+
+    input[type="checkbox"] + input[type="text"] {
+        margin: 0;
+    }
+}

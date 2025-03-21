@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: var(--black);
+    font-family: Roboto, "Helvetica neue";
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2, h3 {
+    font-size: 0.8rem;
+}
+
+h1, h2, h3, a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+p {
+    color: var(--grey);
+    font-size: 1rem;
+    margin: 0.7rem 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
